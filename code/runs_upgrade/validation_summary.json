@@ -1,0 +1,92 @@
+{
+  "metrics": {
+    "n": 798,
+    "correct": 734,
+    "accuracy": 91.97994987468672,
+    "hard_n": 355,
+    "hard_correct": 291,
+    "hard_accuracy": 81.97183098591549
+  },
+  "diagnostics": {
+    "groups": {
+      "2-1-1": {
+        "n": 88,
+        "correct": 67,
+        "accuracy": 76.13636363636364,
+        "hard_n": 88,
+        "hard_correct": 67,
+        "hard_accuracy": 76.13636363636364
+      },
+      "1-1-1-1": {
+        "n": 20,
+        "correct": 11,
+        "accuracy": 55.00000000000001,
+        "hard_n": 20,
+        "hard_correct": 11,
+        "hard_accuracy": 55.00000000000001
+      },
+      "2-1": {
+        "n": 28,
+        "correct": 24,
+        "accuracy": 85.71428571428571,
+        "hard_n": 28,
+        "hard_correct": 24,
+        "hard_accuracy": 85.71428571428571
+      },
+      "2-2": {
+        "n": 34,
+        "correct": 29,
+        "accuracy": 85.29411764705883,
+        "hard_n": 34,
+        "hard_correct": 29,
+        "hard_accuracy": 85.29411764705883
+      },
+      "3-1": {
+        "n": 151,
+        "correct": 139,
+        "accuracy": 92.05298013245033,
+        "hard_n": 151,
+        "hard_correct": 139,
+        "hard_accuracy": 92.05298013245033
+      },
+      "1-1-1": {
+        "n": 20,
+        "correct": 11,
+        "accuracy": 55.00000000000001,
+        "hard_n": 20,
+        "hard_correct": 11,
+        "hard_accuracy": 55.00000000000001
+      },
+      "1-1": {
+        "n": 14,
+        "correct": 10,
+        "accuracy": 71.42857142857143,
+        "hard_n": 14,
+        "hard_correct": 10,
+        "hard_accuracy": 71.42857142857143
+      }
+    },
+    "hard_fixed_majority": 62,
+    "hard_broke_majority": 16,
+    "hard_majority_wrong_accuracy": 56.36363636363636,
+    "hard_margin_bins_low_to_high": [
+      {
+        "n": 119,
+        "accuracy": 88.23529411764706,
+        "mean_margin": 0.0
+      },
+      {
+        "n": 118,
+        "accuracy": 88.98305084745762,
+        "mean_margin": 0.0
+      },
+      {
+        "n": 118,
+        "accuracy": 68.64406779661016,
+        "mean_margin": 0.8658009905708904
+      }
+    ]
+  },
+  "asset_bytes": 1736191,
+  "total_confirmation_and_fit_seconds": 59.50812159999987
+}

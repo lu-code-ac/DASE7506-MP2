@@ -1,0 +1,2902 @@
+[
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4310,
+      "accuracy": 90.64143007360673,
+      "hard_n": 2114,
+      "hard_correct": 1677,
+      "hard_accuracy": 79.3282876064333
+    },
+    "fold_hard_accuracy": [
+      79.74504249291785,
+      78.69318181818183,
+      79.54545454545455
+    ]
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4268,
+      "accuracy": 89.75814931650893,
+      "hard_n": 2114,
+      "hard_correct": 1640,
+      "hard_accuracy": 77.57805108798486
+    },
+    "fold_hard_accuracy": [
+      76.77053824362606,
+      79.54545454545455,
+      76.42045454545455
+    ]
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4310,
+      "accuracy": 90.64143007360673,
+      "hard_n": 2114,
+      "hard_correct": 1677,
+      "hard_accuracy": 79.3282876064333
+    },
+    "fold_hard_accuracy": [
+      79.74504249291785,
+      78.69318181818183,
+      79.54545454545455
+    ]
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4320,
+      "accuracy": 90.85173501577287,
+      "hard_n": 2114,
+      "hard_correct": 1686,
+      "hard_accuracy": 79.75402081362346
+    },
+    "fold_hard_accuracy": [
+      79.88668555240793,
+      78.4090909090909,
+      80.9659090909091
+    ]
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4295,
+      "accuracy": 90.32597266035752,
+      "hard_n": 2114,
+      "hard_correct": 1663,
+      "hard_accuracy": 78.66603595080416
+    },
+    "fold_hard_accuracy": [
+      78.47025495750708,
+      79.4034090909091,
+      78.125
+    ]
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4316,
+      "accuracy": 90.76761303890642,
+      "hard_n": 2114,
+      "hard_correct": 1681,
+      "hard_accuracy": 79.51750236518448
+    },
+    "fold_hard_accuracy": [
+      78.47025495750708,
+      79.4034090909091,
+      80.68181818181817
+    ]
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4274,
+      "accuracy": 89.88433228180862,
+      "hard_n": 2114,
+      "hard_correct": 1646,
+      "hard_accuracy": 77.86187322611163
+    },
+    "fold_hard_accuracy": [
+      77.90368271954674,
+      78.83522727272727,
+      76.8465909090909
+    ]
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4316,
+      "accuracy": 90.76761303890642,
+      "hard_n": 2114,
+      "hard_correct": 1681,
+      "hard_accuracy": 79.51750236518448
+    },
+    "fold_hard_accuracy": [
+      78.47025495750708,
+      79.4034090909091,
+      80.68181818181817
+    ]
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4322,
+      "accuracy": 90.8937960042061,
+      "hard_n": 2114,
+      "hard_correct": 1687,
+      "hard_accuracy": 79.80132450331125
+    },
+    "fold_hard_accuracy": [
+      79.3201133144476,
+      78.83522727272727,
+      81.25
+    ]
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4304,
+      "accuracy": 90.51524710830704,
+      "hard_n": 2114,
+      "hard_correct": 1670,
+      "hard_accuracy": 78.99716177861873
+    },
+    "fold_hard_accuracy": [
+      78.47025495750708,
+      78.97727272727273,
+      79.54545454545455
+    ]
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4320,
+      "accuracy": 90.85173501577287,
+      "hard_n": 2114,
+      "hard_correct": 1686,
+      "hard_accuracy": 79.75402081362346
+    },
+    "fold_hard_accuracy": [
+      78.75354107648725,
+      79.9715909090909,
+      80.53977272727273
+    ]
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4272,
+      "accuracy": 89.8422712933754,
+      "hard_n": 2114,
+      "hard_correct": 1643,
+      "hard_accuracy": 77.71996215704824
+    },
+    "fold_hard_accuracy": [
+      77.90368271954674,
+      78.125,
+      77.13068181818183
+    ]
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4320,
+      "accuracy": 90.85173501577287,
+      "hard_n": 2114,
+      "hard_correct": 1686,
+      "hard_accuracy": 79.75402081362346
+    },
+    "fold_hard_accuracy": [
+      78.75354107648725,
+      79.9715909090909,
+      80.53977272727273
+    ]
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4317,
+      "accuracy": 90.78864353312302,
+      "hard_n": 2114,
+      "hard_correct": 1683,
+      "hard_accuracy": 79.61210974456007
+    },
+    "fold_hard_accuracy": [
+      78.47025495750708,
+      78.97727272727273,
+      81.39204545454545
+    ]
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4300,
+      "accuracy": 90.4311251314406,
+      "hard_n": 2114,
+      "hard_correct": 1667,
+      "hard_accuracy": 78.85525070955535
+    },
+    "fold_hard_accuracy": [
+      78.328611898017,
+      79.26136363636364,
+      78.97727272727273
+    ]
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4291,
+      "accuracy": 90.24185068349107,
+      "hard_n": 2114,
+      "hard_correct": 1657,
+      "hard_accuracy": 78.38221381267739
+    },
+    "fold_hard_accuracy": [
+      78.89518413597733,
+      76.70454545454545,
+      79.54545454545455
+    ]
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4248,
+      "accuracy": 89.33753943217665,
+      "hard_n": 2114,
+      "hard_correct": 1618,
+      "hard_accuracy": 76.53736991485336
+    },
+    "fold_hard_accuracy": [
+      77.90368271954674,
+      74.85795454545455,
+      76.8465909090909
+    ]
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4291,
+      "accuracy": 90.24185068349107,
+      "hard_n": 2114,
+      "hard_correct": 1657,
+      "hard_accuracy": 78.38221381267739
+    },
+    "fold_hard_accuracy": [
+      78.89518413597733,
+      76.70454545454545,
+      79.54545454545455
+    ]
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4289,
+      "accuracy": 90.19978969505783,
+      "hard_n": 2114,
+      "hard_correct": 1654,
+      "hard_accuracy": 78.240302743614
+    },
+    "fold_hard_accuracy": [
+      78.75354107648725,
+      76.13636363636364,
+      79.82954545454545
+    ]
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4275,
+      "accuracy": 89.90536277602523,
+      "hard_n": 2114,
+      "hard_correct": 1641,
+      "hard_accuracy": 77.62535477767265
+    },
+    "fold_hard_accuracy": [
+      78.328611898017,
+      75.85227272727273,
+      78.69318181818183
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4301,
+      "accuracy": 90.4521556256572,
+      "hard_n": 2114,
+      "hard_correct": 1669,
+      "hard_accuracy": 78.94985808893094
+    },
+    "fold_hard_accuracy": [
+      78.47025495750708,
+      78.97727272727273,
+      79.4034090909091
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4252,
+      "accuracy": 89.42166140904311,
+      "hard_n": 2114,
+      "hard_correct": 1625,
+      "hard_accuracy": 76.86849574266793
+    },
+    "fold_hard_accuracy": [
+      76.34560906515581,
+      78.69318181818183,
+      75.56818181818183
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4301,
+      "accuracy": 90.4521556256572,
+      "hard_n": 2114,
+      "hard_correct": 1669,
+      "hard_accuracy": 78.94985808893094
+    },
+    "fold_hard_accuracy": [
+      78.47025495750708,
+      78.97727272727273,
+      79.4034090909091
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4307,
+      "accuracy": 90.57833859095689,
+      "hard_n": 2114,
+      "hard_correct": 1674,
+      "hard_accuracy": 79.18637653736992
+    },
+    "fold_hard_accuracy": [
+      78.75354107648725,
+      78.83522727272727,
+      79.9715909090909
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4285,
+      "accuracy": 90.11566771819138,
+      "hard_n": 2114,
+      "hard_correct": 1656,
+      "hard_accuracy": 78.3349101229896
+    },
+    "fold_hard_accuracy": [
+      78.75354107648725,
+      78.4090909090909,
+      77.8409090909091
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4306,
+      "accuracy": 90.55730809674027,
+      "hard_n": 2114,
+      "hard_correct": 1673,
+      "hard_accuracy": 79.13907284768213
+    },
+    "fold_hard_accuracy": [
+      78.328611898017,
+      79.26136363636364,
+      79.82954545454545
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4268,
+      "accuracy": 89.75814931650893,
+      "hard_n": 2114,
+      "hard_correct": 1641,
+      "hard_accuracy": 77.62535477767265
+    },
+    "fold_hard_accuracy": [
+      77.62039660056658,
+      78.97727272727273,
+      76.2784090909091
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4306,
+      "accuracy": 90.55730809674027,
+      "hard_n": 2114,
+      "hard_correct": 1673,
+      "hard_accuracy": 79.13907284768213
+    },
+    "fold_hard_accuracy": [
+      78.328611898017,
+      79.26136363636364,
+      79.82954545454545
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4309,
+      "accuracy": 90.62039957939012,
+      "hard_n": 2114,
+      "hard_correct": 1675,
+      "hard_accuracy": 79.23368022705772
+    },
+    "fold_hard_accuracy": [
+      78.328611898017,
+      79.4034090909091,
+      79.9715909090909
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4302,
+      "accuracy": 90.47318611987382,
+      "hard_n": 2114,
+      "hard_correct": 1670,
+      "hard_accuracy": 78.99716177861873
+    },
+    "fold_hard_accuracy": [
+      78.75354107648725,
+      79.11931818181817,
+      79.11931818181817
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4311,
+      "accuracy": 90.66246056782335,
+      "hard_n": 2114,
+      "hard_correct": 1677,
+      "hard_accuracy": 79.3282876064333
+    },
+    "fold_hard_accuracy": [
+      79.46175637393767,
+      78.97727272727273,
+      79.54545454545455
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4271,
+      "accuracy": 89.82124079915877,
+      "hard_n": 2114,
+      "hard_correct": 1642,
+      "hard_accuracy": 77.67265846736045
+    },
+    "fold_hard_accuracy": [
+      77.19546742209631,
+      78.83522727272727,
+      76.98863636363636
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4311,
+      "accuracy": 90.66246056782335,
+      "hard_n": 2114,
+      "hard_correct": 1677,
+      "hard_accuracy": 79.3282876064333
+    },
+    "fold_hard_accuracy": [
+      79.46175637393767,
+      78.97727272727273,
+      79.54545454545455
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4311,
+      "accuracy": 90.66246056782335,
+      "hard_n": 2114,
+      "hard_correct": 1677,
+      "hard_accuracy": 79.3282876064333
+    },
+    "fold_hard_accuracy": [
+      79.17847025495752,
+      79.11931818181817,
+      79.6875
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4305,
+      "accuracy": 90.53627760252367,
+      "hard_n": 2114,
+      "hard_correct": 1672,
+      "hard_accuracy": 79.09176915799432
+    },
+    "fold_hard_accuracy": [
+      78.75354107648725,
+      79.4034090909091,
+      79.11931818181817
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4308,
+      "accuracy": 90.59936908517349,
+      "hard_n": 2114,
+      "hard_correct": 1674,
+      "hard_accuracy": 79.18637653736992
+    },
+    "fold_hard_accuracy": [
+      78.61189801699717,
+      79.26136363636364,
+      79.6875
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4266,
+      "accuracy": 89.7160883280757,
+      "hard_n": 2114,
+      "hard_correct": 1637,
+      "hard_accuracy": 77.43614001892148
+    },
+    "fold_hard_accuracy": [
+      78.18696883852692,
+      77.41477272727273,
+      76.70454545454545
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4308,
+      "accuracy": 90.59936908517349,
+      "hard_n": 2114,
+      "hard_correct": 1674,
+      "hard_accuracy": 79.18637653736992
+    },
+    "fold_hard_accuracy": [
+      78.61189801699717,
+      79.26136363636364,
+      79.6875
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4309,
+      "accuracy": 90.62039957939012,
+      "hard_n": 2114,
+      "hard_correct": 1675,
+      "hard_accuracy": 79.23368022705772
+    },
+    "fold_hard_accuracy": [
+      78.75354107648725,
+      79.4034090909091,
+      79.54545454545455
+    ]
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4304,
+      "accuracy": 90.51524710830704,
+      "hard_n": 2114,
+      "hard_correct": 1670,
+      "hard_accuracy": 78.99716177861873
+    },
+    "fold_hard_accuracy": [
+      78.47025495750708,
+      79.4034090909091,
+      79.11931818181817
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4309,
+      "accuracy": 90.62039957939012,
+      "hard_n": 2114,
+      "hard_correct": 1673,
+      "hard_accuracy": 79.13907284768213
+    },
+    "fold_hard_accuracy": [
+      78.89518413597733,
+      78.55113636363636,
+      79.9715909090909
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4246,
+      "accuracy": 89.29547844374342,
+      "hard_n": 2114,
+      "hard_correct": 1617,
+      "hard_accuracy": 76.49006622516556
+    },
+    "fold_hard_accuracy": [
+      75.4957507082153,
+      77.55681818181817,
+      76.42045454545455
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4309,
+      "accuracy": 90.62039957939012,
+      "hard_n": 2114,
+      "hard_correct": 1673,
+      "hard_accuracy": 79.13907284768213
+    },
+    "fold_hard_accuracy": [
+      78.89518413597733,
+      78.55113636363636,
+      79.9715909090909
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4310,
+      "accuracy": 90.64143007360673,
+      "hard_n": 2114,
+      "hard_correct": 1674,
+      "hard_accuracy": 79.18637653736992
+    },
+    "fold_hard_accuracy": [
+      78.75354107648725,
+      78.26704545454545,
+      80.53977272727273
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4288,
+      "accuracy": 90.17875920084121,
+      "hard_n": 2114,
+      "hard_correct": 1654,
+      "hard_accuracy": 78.240302743614
+    },
+    "fold_hard_accuracy": [
+      78.18696883852692,
+      77.8409090909091,
+      78.69318181818183
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4296,
+      "accuracy": 90.34700315457414,
+      "hard_n": 2114,
+      "hard_correct": 1661,
+      "hard_accuracy": 78.57142857142857
+    },
+    "fold_hard_accuracy": [
+      77.90368271954674,
+      78.26704545454545,
+      79.54545454545455
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4257,
+      "accuracy": 89.52681388012618,
+      "hard_n": 2114,
+      "hard_correct": 1627,
+      "hard_accuracy": 76.96310312204352
+    },
+    "fold_hard_accuracy": [
+      76.62889518413598,
+      77.8409090909091,
+      76.42045454545455
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4296,
+      "accuracy": 90.34700315457414,
+      "hard_n": 2114,
+      "hard_correct": 1661,
+      "hard_accuracy": 78.57142857142857
+    },
+    "fold_hard_accuracy": [
+      77.90368271954674,
+      78.26704545454545,
+      79.54545454545455
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4300,
+      "accuracy": 90.4311251314406,
+      "hard_n": 2114,
+      "hard_correct": 1665,
+      "hard_accuracy": 78.76064333017976
+    },
+    "fold_hard_accuracy": [
+      77.62039660056658,
+      78.55113636363636,
+      80.11363636363636
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4286,
+      "accuracy": 90.13669821240799,
+      "hard_n": 2114,
+      "hard_correct": 1653,
+      "hard_accuracy": 78.1929990539262
+    },
+    "fold_hard_accuracy": [
+      78.328611898017,
+      78.26704545454545,
+      77.98295454545455
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4301,
+      "accuracy": 90.4521556256572,
+      "hard_n": 2114,
+      "hard_correct": 1665,
+      "hard_accuracy": 78.76064333017976
+    },
+    "fold_hard_accuracy": [
+      78.18696883852692,
+      78.83522727272727,
+      79.26136363636364
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4267,
+      "accuracy": 89.73711882229233,
+      "hard_n": 2114,
+      "hard_correct": 1637,
+      "hard_accuracy": 77.43614001892148
+    },
+    "fold_hard_accuracy": [
+      78.04532577903683,
+      78.125,
+      76.13636363636364
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4301,
+      "accuracy": 90.4521556256572,
+      "hard_n": 2114,
+      "hard_correct": 1665,
+      "hard_accuracy": 78.76064333017976
+    },
+    "fold_hard_accuracy": [
+      78.18696883852692,
+      78.83522727272727,
+      79.26136363636364
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4305,
+      "accuracy": 90.53627760252367,
+      "hard_n": 2114,
+      "hard_correct": 1669,
+      "hard_accuracy": 78.94985808893094
+    },
+    "fold_hard_accuracy": [
+      78.328611898017,
+      79.11931818181817,
+      79.4034090909091
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4302,
+      "accuracy": 90.47318611987382,
+      "hard_n": 2114,
+      "hard_correct": 1666,
+      "hard_accuracy": 78.80794701986756
+    },
+    "fold_hard_accuracy": [
+      78.89518413597733,
+      78.55113636363636,
+      78.97727272727273
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4305,
+      "accuracy": 90.53627760252367,
+      "hard_n": 2114,
+      "hard_correct": 1669,
+      "hard_accuracy": 78.94985808893094
+    },
+    "fold_hard_accuracy": [
+      78.61189801699717,
+      78.55113636363636,
+      79.6875
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4282,
+      "accuracy": 90.05257623554154,
+      "hard_n": 2114,
+      "hard_correct": 1653,
+      "hard_accuracy": 78.1929990539262
+    },
+    "fold_hard_accuracy": [
+      79.17847025495752,
+      77.8409090909091,
+      77.55681818181817
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4305,
+      "accuracy": 90.53627760252367,
+      "hard_n": 2114,
+      "hard_correct": 1669,
+      "hard_accuracy": 78.94985808893094
+    },
+    "fold_hard_accuracy": [
+      78.61189801699717,
+      78.55113636363636,
+      79.6875
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4305,
+      "accuracy": 90.53627760252367,
+      "hard_n": 2114,
+      "hard_correct": 1669,
+      "hard_accuracy": 78.94985808893094
+    },
+    "fold_hard_accuracy": [
+      78.47025495750708,
+      78.83522727272727,
+      79.54545454545455
+    ]
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4306,
+      "accuracy": 90.55730809674027,
+      "hard_n": 2114,
+      "hard_correct": 1672,
+      "hard_accuracy": 79.09176915799432
+    },
+    "fold_hard_accuracy": [
+      78.75354107648725,
+      78.97727272727273,
+      79.54545454545455
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4297,
+      "accuracy": 90.36803364879074,
+      "hard_n": 2114,
+      "hard_correct": 1665,
+      "hard_accuracy": 78.76064333017976
+    },
+    "fold_hard_accuracy": [
+      79.03682719546742,
+      78.4090909090909,
+      78.83522727272727
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4237,
+      "accuracy": 89.10620399579389,
+      "hard_n": 2114,
+      "hard_correct": 1612,
+      "hard_accuracy": 76.25354777672658
+    },
+    "fold_hard_accuracy": [
+      75.92067988668555,
+      76.8465909090909,
+      75.99431818181817
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4297,
+      "accuracy": 90.36803364879074,
+      "hard_n": 2114,
+      "hard_correct": 1665,
+      "hard_accuracy": 78.76064333017976
+    },
+    "fold_hard_accuracy": [
+      79.03682719546742,
+      78.4090909090909,
+      78.83522727272727
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4305,
+      "accuracy": 90.53627760252367,
+      "hard_n": 2114,
+      "hard_correct": 1672,
+      "hard_accuracy": 79.09176915799432
+    },
+    "fold_hard_accuracy": [
+      78.89518413597733,
+      78.97727272727273,
+      79.4034090909091
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4280,
+      "accuracy": 90.0105152471083,
+      "hard_n": 2114,
+      "hard_correct": 1649,
+      "hard_accuracy": 78.00378429517502
+    },
+    "fold_hard_accuracy": [
+      78.47025495750708,
+      77.8409090909091,
+      77.69886363636364
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4302,
+      "accuracy": 90.47318611987382,
+      "hard_n": 2114,
+      "hard_correct": 1667,
+      "hard_accuracy": 78.85525070955535
+    },
+    "fold_hard_accuracy": [
+      78.75354107648725,
+      78.55113636363636,
+      79.26136363636364
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4250,
+      "accuracy": 89.37960042060989,
+      "hard_n": 2114,
+      "hard_correct": 1620,
+      "hard_accuracy": 76.63197729422895
+    },
+    "fold_hard_accuracy": [
+      76.20396600566572,
+      77.8409090909091,
+      75.85227272727273
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4302,
+      "accuracy": 90.47318611987382,
+      "hard_n": 2114,
+      "hard_correct": 1667,
+      "hard_accuracy": 78.85525070955535
+    },
+    "fold_hard_accuracy": [
+      78.75354107648725,
+      78.55113636363636,
+      79.26136363636364
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4302,
+      "accuracy": 90.47318611987382,
+      "hard_n": 2114,
+      "hard_correct": 1667,
+      "hard_accuracy": 78.85525070955535
+    },
+    "fold_hard_accuracy": [
+      78.61189801699717,
+      78.4090909090909,
+      79.54545454545455
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4302,
+      "accuracy": 90.47318611987382,
+      "hard_n": 2114,
+      "hard_correct": 1667,
+      "hard_accuracy": 78.85525070955535
+    },
+    "fold_hard_accuracy": [
+      78.61189801699717,
+      78.97727272727273,
+      78.97727272727273
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4313,
+      "accuracy": 90.70452155625657,
+      "hard_n": 2114,
+      "hard_correct": 1677,
+      "hard_accuracy": 79.3282876064333
+    },
+    "fold_hard_accuracy": [
+      78.75354107648725,
+      79.11931818181817,
+      80.11363636363636
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4273,
+      "accuracy": 89.86330178759201,
+      "hard_n": 2114,
+      "hard_correct": 1642,
+      "hard_accuracy": 77.67265846736045
+    },
+    "fold_hard_accuracy": [
+      77.62039660056658,
+      78.83522727272727,
+      76.5625
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4313,
+      "accuracy": 90.70452155625657,
+      "hard_n": 2114,
+      "hard_correct": 1677,
+      "hard_accuracy": 79.3282876064333
+    },
+    "fold_hard_accuracy": [
+      78.75354107648725,
+      79.11931818181817,
+      80.11363636363636
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4311,
+      "accuracy": 90.66246056782335,
+      "hard_n": 2114,
+      "hard_correct": 1675,
+      "hard_accuracy": 79.23368022705772
+    },
+    "fold_hard_accuracy": [
+      78.89518413597733,
+      78.97727272727273,
+      79.82954545454545
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4319,
+      "accuracy": 90.83070452155626,
+      "hard_n": 2114,
+      "hard_correct": 1683,
+      "hard_accuracy": 79.61210974456007
+    },
+    "fold_hard_accuracy": [
+      79.17847025495752,
+      79.54545454545455,
+      80.11363636363636
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4321,
+      "accuracy": 90.87276550998948,
+      "hard_n": 2114,
+      "hard_correct": 1685,
+      "hard_accuracy": 79.70671712393566
+    },
+    "fold_hard_accuracy": [
+      79.03682719546742,
+      79.4034090909091,
+      80.68181818181817
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4274,
+      "accuracy": 89.88433228180862,
+      "hard_n": 2114,
+      "hard_correct": 1642,
+      "hard_accuracy": 77.67265846736045
+    },
+    "fold_hard_accuracy": [
+      77.33711048158641,
+      78.55113636363636,
+      77.13068181818183
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4321,
+      "accuracy": 90.87276550998948,
+      "hard_n": 2114,
+      "hard_correct": 1685,
+      "hard_accuracy": 79.70671712393566
+    },
+    "fold_hard_accuracy": [
+      79.03682719546742,
+      79.4034090909091,
+      80.68181818181817
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4319,
+      "accuracy": 90.83070452155626,
+      "hard_n": 2114,
+      "hard_correct": 1683,
+      "hard_accuracy": 79.61210974456007
+    },
+    "fold_hard_accuracy": [
+      78.89518413597733,
+      79.54545454545455,
+      80.39772727272727
+    ]
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4315,
+      "accuracy": 90.7465825446898,
+      "hard_n": 2114,
+      "hard_correct": 1679,
+      "hard_accuracy": 79.4228949858089
+    },
+    "fold_hard_accuracy": [
+      78.75354107648725,
+      79.4034090909091,
+      80.11363636363636
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4300,
+      "accuracy": 90.4311251314406,
+      "hard_n": 2114,
+      "hard_correct": 1668,
+      "hard_accuracy": 78.90255439924314
+    },
+    "fold_hard_accuracy": [
+      79.03682719546742,
+      79.26136363636364,
+      78.4090909090909
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4243,
+      "accuracy": 89.2323869610936,
+      "hard_n": 2114,
+      "hard_correct": 1616,
+      "hard_accuracy": 76.44276253547777
+    },
+    "fold_hard_accuracy": [
+      75.3541076487252,
+      78.125,
+      75.85227272727273
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4300,
+      "accuracy": 90.4311251314406,
+      "hard_n": 2114,
+      "hard_correct": 1668,
+      "hard_accuracy": 78.90255439924314
+    },
+    "fold_hard_accuracy": [
+      79.03682719546742,
+      79.26136363636364,
+      78.4090909090909
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4310,
+      "accuracy": 90.64143007360673,
+      "hard_n": 2114,
+      "hard_correct": 1677,
+      "hard_accuracy": 79.3282876064333
+    },
+    "fold_hard_accuracy": [
+      79.60339943342775,
+      79.11931818181817,
+      79.26136363636364
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 10,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4285,
+      "accuracy": 90.11566771819138,
+      "hard_n": 2114,
+      "hard_correct": 1655,
+      "hard_accuracy": 78.28760643330179
+    },
+    "fold_hard_accuracy": [
+      78.328611898017,
+      78.4090909090909,
+      78.125
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4316,
+      "accuracy": 90.76761303890642,
+      "hard_n": 2114,
+      "hard_correct": 1681,
+      "hard_accuracy": 79.51750236518448
+    },
+    "fold_hard_accuracy": [
+      79.17847025495752,
+      80.25568181818183,
+      79.11931818181817
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4259,
+      "accuracy": 89.5688748685594,
+      "hard_n": 2114,
+      "hard_correct": 1629,
+      "hard_accuracy": 77.05771050141911
+    },
+    "fold_hard_accuracy": [
+      76.34560906515581,
+      78.83522727272727,
+      75.99431818181817
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4316,
+      "accuracy": 90.76761303890642,
+      "hard_n": 2114,
+      "hard_correct": 1681,
+      "hard_accuracy": 79.51750236518448
+    },
+    "fold_hard_accuracy": [
+      79.17847025495752,
+      80.25568181818183,
+      79.11931818181817
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4314,
+      "accuracy": 90.7255520504732,
+      "hard_n": 2114,
+      "hard_correct": 1679,
+      "hard_accuracy": 79.4228949858089
+    },
+    "fold_hard_accuracy": [
+      78.89518413597733,
+      80.11363636363636,
+      79.26136363636364
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 25,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4311,
+      "accuracy": 90.66246056782335,
+      "hard_n": 2114,
+      "hard_correct": 1677,
+      "hard_accuracy": 79.3282876064333
+    },
+    "fold_hard_accuracy": [
+      79.60339943342775,
+      79.9715909090909,
+      78.4090909090909
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4319,
+      "accuracy": 90.83070452155626,
+      "hard_n": 2114,
+      "hard_correct": 1683,
+      "hard_accuracy": 79.61210974456007
+    },
+    "fold_hard_accuracy": [
+      79.03682719546742,
+      79.54545454545455,
+      80.25568181818183
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4274,
+      "accuracy": 89.88433228180862,
+      "hard_n": 2114,
+      "hard_correct": 1643,
+      "hard_accuracy": 77.71996215704824
+    },
+    "fold_hard_accuracy": [
+      77.47875354107649,
+      78.69318181818183,
+      76.98863636363636
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4319,
+      "accuracy": 90.83070452155626,
+      "hard_n": 2114,
+      "hard_correct": 1683,
+      "hard_accuracy": 79.61210974456007
+    },
+    "fold_hard_accuracy": [
+      79.03682719546742,
+      79.54545454545455,
+      80.25568181818183
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4320,
+      "accuracy": 90.85173501577287,
+      "hard_n": 2114,
+      "hard_correct": 1684,
+      "hard_accuracy": 79.65941343424787
+    },
+    "fold_hard_accuracy": [
+      79.17847025495752,
+      79.54545454545455,
+      80.25568181818183
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 60,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4320,
+      "accuracy": 90.85173501577287,
+      "hard_n": 2114,
+      "hard_correct": 1685,
+      "hard_accuracy": 79.70671712393566
+    },
+    "fold_hard_accuracy": [
+      79.60339943342775,
+      79.6875,
+      79.82954545454545
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "none",
+    "oof": {
+      "n": 4755,
+      "correct": 4273,
+      "accuracy": 89.86330178759201,
+      "hard_n": 2114,
+      "hard_correct": 1641,
+      "hard_accuracy": 77.62535477767265
+    },
+    "fold_hard_accuracy": [
+      77.76203966005666,
+      77.13068181818183,
+      77.98295454545455
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "mean",
+    "oof": {
+      "n": 4755,
+      "correct": 4224,
+      "accuracy": 88.83280757097792,
+      "hard_n": 2114,
+      "hard_correct": 1597,
+      "hard_accuracy": 75.54399243140965
+    },
+    "fold_hard_accuracy": [
+      75.07082152974505,
+      75.14204545454545,
+      76.42045454545455
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "max",
+    "oof": {
+      "n": 4755,
+      "correct": 4273,
+      "accuracy": 89.86330178759201,
+      "hard_n": 2114,
+      "hard_correct": 1641,
+      "hard_accuracy": 77.62535477767265
+    },
+    "fold_hard_accuracy": [
+      77.76203966005666,
+      77.13068181818183,
+      77.98295454545455
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "logsumexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4276,
+      "accuracy": 89.92639327024186,
+      "hard_n": 2114,
+      "hard_correct": 1644,
+      "hard_accuracy": 77.76726584673604
+    },
+    "fold_hard_accuracy": [
+      77.90368271954674,
+      77.27272727272727,
+      78.125
+    ]
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    "epochs": 120,
+    "pool": "logmeanexp",
+    "oof": {
+      "n": 4755,
+      "correct": 4273,
+      "accuracy": 89.86330178759201,
+      "hard_n": 2114,
+      "hard_correct": 1641,
+      "hard_accuracy": 77.62535477767265
+    },
+    "fold_hard_accuracy": [
+      77.76203966005666,
+      77.55681818181817,
+      77.55681818181817
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "config_index": 1,
+  "config": {
+    "loss": "pair",
+    "l2": 0.001
+  },
+  "epochs": 60,
+  "oof": {
+    "n": 4755,
+    "correct": 4351,
+    "accuracy": 91.5036803364879,
+    "hard_n": 2114,
+    "hard_correct": 1710,
+    "hard_accuracy": 80.88930936613056
+  }
+}

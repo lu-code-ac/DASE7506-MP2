@@ -1,0 +1,67 @@
+[
+  {
+    "question": "Lizette scored 92 on her third quiz giving her an average of 94. What is Lizette's average in her first two quizzes?",
+    "selected_index": 2,
+    "selected_text": "We are given:\n\n- Lizette scored **92** on her **third quiz**, and  \n- Her **average** for all three quizzes is **94**.\n\n### Step 1: Use the average formula\n\nThe average is calculated as:\n\n$$\n\\text{Average} = \\frac{\\text{Sum of scores}}{\\text{Number of quizzes}}\n$$\n\nSo, for 3 quizzes:\n\n$$\n94 = \\frac{92 + \\text{score}_2 + \\text{score}_3}{3}\n$$\n\nSubstitute the known values:\n\n$$\n94 = \\frac{92 + x + 92}{3}\n$$\n\n$$\n94 = \\frac{184 + x}{3}\n$$\n\nMultiply both sides by 3:\n\n$$\n282 = 184 + x\n$$\n\n$$\nx = 282 - 184 = 98\n$$\n\n### Step 2: Final answer\n\nLizette's average in her **first two quizzes** is:\n\n$$\n\\boxed{98}\n$$",
+    "candidate_answers": [
+      "95",
+      "190",
+      "98",
+      "96"
+    ],
+    "gold_answer": "95",
+    "reference_reasoning": "If Lizette's average on the 3 quizzes is 94, then the sum of her scores in the 3 quizzes is 94 x 3 = <<94*3=282>>282.\nThis means that the sum of her scores in the first 2 quizzes is 282 - 92 = <<282-92=190>>190.\nThus, her average for the first 2 quizzes is 190/2 = <<190/2=95>>95.\n#### 95"
+  },
+  {
+    "question": "Grace baked 4 whole pumpkin pies. She sold 1 whole pumpkin pie and gave 1 whole pumpkin pie to her friend. The remaining whole pumpkin pies were each sliced into 6 pieces. Her family ate 2/3 pieces. How many pieces of pumpkin pie were left?",
+    "selected_index": 0,
+    "selected_text": "Grace baked **4 whole pumpkin pies**.  \nShe sold **1 whole pumpkin pie** and gave **1 whole pumpkin pie** to her friend.  \nSo, she had **3 whole pumpkin pies** left.  \n\nEach of those pies was sliced into **6 pieces**.  \nHer family ate **$ \\frac{2}{3} $** of the total pieces.  \n\nSo, the total number of pieces is:  \n$$ 3 \\times 6 = 18 $$\n\nShe ate $ \\frac{2}{3} $ of 18:  \n$$ \\frac{2}{3} \\times 18 = 12 $$\n\nThe number of pieces left is:  \n$$ 18 - 12 = 6 $$\n\n#### <numeric answer> 6",
+    "candidate_answers": [
+      "6",
+      "4",
+      "2",
+      "4"
+    ],
+    "gold_answer": "4",
+    "reference_reasoning": "Grace sold and gave a total of 1 + 1 = <<1+1=2>>2 whole pumpkin pie.\nHer family was left with 4 - 2 = <<4-2=2>>2 whole pumpkin pie.\nThere were a total of 2 x 6 = <<2*6=12>>12 pieces made from the 2 whole pumpkin pie.\nHer family ate 12 x 2/3 = <<12*2/3=8>>8 pieces.\nTherefore, 12 - 8 = <<12-8=4>>4 pieces of pumpkin pie were left.\n#### 4"
+  },
+  {
+    "question": "Yun had 20 paperclips initially, but then lost 12. Marion has 1/4 more than what Yun currently has, plus 7. How many paperclips does Marion have?",
+    "selected_index": 3,
+    "selected_text": "We are given the following:\n\n- Yun had **20 paperclips** initially.\n- Then lost **12**, so **Yun currently has** $ 20 - 12 = 8 $ paperclips.\n\n- Marion has **$ \\frac{1}{4} $ more than what Yun currently has, plus 7**.\n\nSo, we calculate:\n\n$$\n\\text{Marion's paperclips} = 8 + \\left( \\frac{1}{4} \\times 8 \\right) + 7\n$$\n\n$$\n= 8 + 2 + 7 = 17\n$$\n\n### Final Answer:\n$$\n\\boxed{17}\n$$",
+    "candidate_answers": [
+      "9",
+      "17",
+      "17",
+      "17"
+    ],
+    "gold_answer": "9",
+    "reference_reasoning": "Yun has 20-12= <<20-12=8>>8 paperclips.\nMarion has 8/4 + 7 = <<8/4+7=9>>9 paperclips\n#### 9"
+  },
+  {
+    "question": "Three different 6th grade classes are combining for a square dancing unit.  If possible, the teachers would like each male student to partner with a female student for the unit.  The first class has 17 males and 13 females, while the second class has 14 males and 18 females, and the third class has 15 males and 17 females.  When the classes are combined, how many students will be unable to partner with a student of the opposite gender?",
+    "selected_index": 0,
+    "selected_text": "We are told that each male student must partner with a female student, and we need to find how many students **cannot** partner with a student of the opposite gender when all three classes are combined.\n\n### Step 1: Total number of students\n\n- **Class 1:** 17 males + 13 females = 30 students  \n- **Class 2:** 14 males + 18 females = 32 students  \n- **Class 3:** 15 males + 17 females = 32 students  \n\n**Total students = 30 + 32 + 32 = 94 students**\n\n---\n\n### Step 2: Total number of possible pairings\n\n- Each student must pair with exactly one student of the opposite gender.  \n- So, the total number of possible pairings is the **minimum** of the total number of males and females, since we can't pair more than one person with each gender.\n\n- **Males: 17 + 14 + 15 = 46**  \n- **Females: 13 + 18 + 17 = 48**\n\nSo, the **maximum number of possible pairings** is **46** (the number of males).\n\n---\n\n### Step 3: Find how many students are unable to partner\n\nWe subtract the number of students who can partner from the total number of students:\n\n$$\n94 - 46 = 48\n$$\n\n---\n\n### \u2705 Final Answer:\n\n$$\n\\boxed{48}\n$$",
+    "candidate_answers": [
+      "48",
+      "48",
+      "45",
+      "2"
+    ],
+    "gold_answer": "2",
+    "reference_reasoning": "Combining the three classes, there are 17 + 14 + 15 = <<17+14+15=46>>46 male students.\nSimilarly, there are 13 + 18 + 17 = <<13+18+17=48>>48 female students.\nThus, there are 48-46 = <<48-46=2>>2 students who cannot partner with a student of the opposite gender.\n#### 2"
+  },
+  {
+    "question": "Tom buys 20 shares of a stock that costs $3 each.  He sells 10 of those shares for $4 each.  The rest of the shares end up doubling in value.  How much profit does he make?",
+    "selected_index": 3,
+    "selected_text": "We are given:\n\n- Tom buys **20 shares** at **$3 each**, for a total of **$60**.\n- He sells **10 shares** at **$4 each**, for a total of **$40**.\n- The **remaining 10 shares** double in value, so they now cost **$3 \u00d7 2 = $6 each**.\n\nNow calculate the total profit:\n\n- Total profit = (Selling price - Cost price) \u00d7 number of shares sold  \n  = ($40 - $30) \u00d7 10  \n  = $10 \u00d7 10  \n  = **$100**\n\n### Final Answer:\n#### $100.",
+    "candidate_answers": [
+      "100",
+      "80",
+      "40",
+      "100"
+    ],
+    "gold_answer": "40",
+    "reference_reasoning": "He spends 3*20=$<<3*20=60>>60 on the shares.\nHe sells 10 for 10*4=$<<10*4=40>>40.\nHe sells the other 20-10=<<20-10=10>>10 for a higher valuation.\nTheir price was 3*2=$<<3*2=6>>6.\nSo he got 10*6=$<<10*6=60>>60 from those.\nSo in total, he got 60+40=$<<60+40=100>>100.\nSo his profit was 100-60=$<<100-60=40>>40.\n#### 40"
+  }
+]

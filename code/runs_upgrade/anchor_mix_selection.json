@@ -1,0 +1,35 @@
+[
+  {
+    "v1_weight": 0.25,
+    "oof": {
+      "n": 4755,
+      "correct": 4368,
+      "accuracy": 91.86119873817034,
+      "hard_n": 2114,
+      "hard_correct": 1727,
+      "hard_accuracy": 81.69347209082308
+    }
+  },
+  {
+    "v1_weight": 0.5,
+    "oof": {
+      "n": 4755,
+      "correct": 4367,
+      "accuracy": 91.84016824395374,
+      "hard_n": 2114,
+      "hard_correct": 1726,
+      "hard_accuracy": 81.64616840113528
+    }
+  },
+  {
+    "v1_weight": 0.75,
+    "oof": {
+      "n": 4755,
+      "correct": 4358,
+      "accuracy": 91.65089379600421,
+      "hard_n": 2114,
+      "hard_correct": 1717,
+      "hard_accuracy": 81.22043519394512
+    }
+  }
+]

@@ -1,0 +1,111 @@
+{
+  "configs": [
+    {
+      "mode": "embedding",
+      "loss": "bce",
+      "hidden": 0,
+      "hard_weight": 1,
+      "lr": 0.003,
+      "wd": 0.1,
+      "dropout": 0.35
+    },
+    {
+      "mode": "context",
+      "loss": "bce",
+      "hidden": 0,
+      "hard_weight": 1,
+      "lr": 0.003,
+      "wd": 0.1,
+      "dropout": 0.35
+    },
+    {
+      "mode": "context",
+      "loss": "bce",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.1,
+      "dropout": 0.35
+    },
+    {
+      "mode": "context",
+      "loss": "bce",
+      "hidden": 128,
+      "hard_weight": 2,
+      "lr": 0.001,
+      "wd": 0.1,
+      "dropout": 0.35
+    },
+    {
+      "mode": "context",
+      "loss": "list",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.1,
+      "dropout": 0.35
+    },
+    {
+      "mode": "context",
+      "loss": "pair",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.1,
+      "dropout": 0.35
+    },
+    {
+      "mode": "group",
+      "loss": "bce",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.1,
+      "dropout": 0.35
+    },
+    {
+      "mode": "group",
+      "loss": "list",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.1,
+      "dropout": 0.35
+    },
+    {
+      "mode": "group",
+      "loss": "pair",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.1,
+      "dropout": 0.35
+    },
+    {
+      "mode": "hybrid",
+      "loss": "bce",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.1,
+      "dropout": 0.35
+    }
+  ],
+  "epochs": [
+    10,
+    25,
+    60,
+    120
+  ],
+  "pools": [
+    "none",
+    "mean",
+    "max",
+    "logsumexp",
+    "logmeanexp"
+  ],
+  "fold_seed": 20261027,
+  "cv_seed": 17,
+  "criterion": "training hard OOF accuracy",
+  "test_use": "none; earlier V1 test result was already observed"
+}

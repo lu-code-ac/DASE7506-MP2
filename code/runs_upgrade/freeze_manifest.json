@@ -1,0 +1,19 @@
+{
+  "stage": "V2 frozen after validation report and before any V2 test evaluation",
+  "V1_test_previously_observed": true,
+  "files": {
+    "method_v2.py": "9a75985d69f82c391b4b1037c22f0c5c994ced22a11c98bcf38f41c8424bbf53",
+    "v2_features.py": "5582ebe05e46d0a50edc8a127a3ee797f289d9df13a93484500304ecc8e7d82a",
+    "rich_features.py": "4ed621fdc925469cda05f27e6faec2f0d29c936ebdebc7151d83de051a92847f",
+    "features.py": "30d0880e32283712d70a6836f3e06dbbb62aca7b47a43d9caedf3d3eebb71f06",
+    "train_v2.py": "fcdb37a261ddce5ede2b12511da48e847c58cb84a9cb0abbb6e107d362416e99",
+    "confirm_upgrade.py": "8ef141e45b4954255ab18604b45e05fafb591448443c57ec855dc54612442b85",
+    "runs_upgrade\\model_bundle\\config.json": "780080681c1dada08830537c031ea8aecb244aaedfdfdf91d7abaac51895d692",
+    "runs_upgrade\\model_bundle\\family0_seed17.npz": "84d8916eb37b0d6832b9ea7d63b4973496f2433eeb2aaa38cd0f8e92461a2966",
+    "runs_upgrade\\model_bundle\\family0_seed29.npz": "6a98e877d486c22b28f17393e763999792a97f24d25d5553a83c326f3ab7649e",
+    "runs_upgrade\\model_bundle\\family0_seed43.npz": "88c85a0239a3a411f685b0b1ffe178e5ef56267f56611c87fb7cb839b807622e",
+    "runs_upgrade\\model_bundle\\family2_seed17.npz": "4f7e0a07202203d6d8122ac6cde0c8475afecf1986558eac0b006ebfb56830f6",
+    "runs_upgrade\\model_bundle\\family2_seed29.npz": "51e7c59062ae8ace38cf6b08a4cf777ebe9036e5af80cb7555976ff7505f9907",
+    "runs_upgrade\\model_bundle\\family2_seed43.npz": "40825d7c00cb7e5a4a80e82f7916e7535369d038e30c1e0a781e75b1b98cb2e6"
+  }
+}

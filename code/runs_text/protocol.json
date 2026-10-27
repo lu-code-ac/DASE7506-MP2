@@ -1,0 +1,28 @@
+{
+  "configs": [
+    {
+      "loss": "pair",
+      "l2": 0.0001
+    },
+    {
+      "loss": "pair",
+      "l2": 0.001
+    },
+    {
+      "loss": "mixed",
+      "l2": 0.0001
+    },
+    {
+      "loss": "mixed",
+      "l2": 0.001
+    }
+  ],
+  "epochs": [
+    10,
+    25,
+    60
+  ],
+  "seed": 17,
+  "fold_seed": 20261027,
+  "test_use": "none"
+}

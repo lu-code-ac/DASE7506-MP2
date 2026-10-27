@@ -1,0 +1,27 @@
+{
+  "config_index": 5,
+  "config": {
+    "mode": "context",
+    "loss": "pair",
+    "hidden": 64,
+    "hard_weight": 1,
+    "lr": 0.001,
+    "wd": 0.1,
+    "dropout": 0.35
+  },
+  "epochs": 120,
+  "pool": "logmeanexp",
+  "oof": {
+    "n": 4755,
+    "correct": 4359,
+    "accuracy": 91.67192429022082,
+    "hard_n": 2114,
+    "hard_correct": 1718,
+    "hard_accuracy": 81.26773888363292
+  },
+  "fold_hard_accuracy": [
+    81.30311614730878,
+    79.6875,
+    82.8125
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "split": "test",
+  "total_wall_seconds": 0.713375499999529,
+  "commands": [
+    {
+      "command": [
+        "D:\\Python3.12\\python.exe",
+        "predict.py",
+        "--method",
+        "method.py",
+        "--checkpoint",
+        "runs/model_bundle",
+        "--split",
+        "test",
+        "--output",
+        "runs/test-predictions.json"
+      ],
+      "wall_seconds": 0.45071199999983946
+    },
+    {
+      "command": [
+        "D:\\Python3.12\\python.exe",
+        "score_predictions.py",
+        "--split",
+        "test",
+        "--predictions",
+        "runs/test-predictions.json",
+        "--output",
+        "runs/test-score.json"
+      ],
+      "wall_seconds": 0.2626560000007885
+    }
+  ],
+  "threads": 4,
+  "reference_machine_eligibility": "not verified; local hardware only"
+}

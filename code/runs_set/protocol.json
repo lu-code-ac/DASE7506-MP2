@@ -1,0 +1,49 @@
+{
+  "configs": [
+    {
+      "rich": false,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "pair"
+    },
+    {
+      "rich": false,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "bce"
+    },
+    {
+      "rich": false,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "mixed"
+    },
+    {
+      "rich": true,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "pair"
+    },
+    {
+      "rich": true,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "bce"
+    },
+    {
+      "rich": true,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "mixed"
+    }
+  ],
+  "epochs": [
+    10,
+    25,
+    60,
+    120
+  ],
+  "seed": 17,
+  "fold_seed": 20261027,
+  "test_use": "none"
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "config": {
+      "name": "embedding_linear",
+      "mode": "embedding",
+      "hidden": 0,
+      "hard_weight": 1
+    },
+    "oof": {
+      "n": 4755,
+      "correct": 4293,
+      "accuracy": 90.28391167192429,
+      "hard_n": 2114,
+      "hard_correct": 1665,
+      "hard_accuracy": 78.76064333017976
+    },
+    "fold_hard_accuracy": [
+      79.3201133144476,
+      78.125,
+      78.83522727272727
+    ],
+    "seconds": 4.493677499999649
+  },
+  {
+    "config": {
+      "name": "context_linear",
+      "mode": "context",
+      "hidden": 0,
+      "hard_weight": 1
+    },
+    "oof": {
+      "n": 4755,
+      "correct": 4333,
+      "accuracy": 91.12513144058886,
+      "hard_n": 2114,
+      "hard_correct": 1692,
+      "hard_accuracy": 80.03784295175024
+    },
+    "fold_hard_accuracy": [
+      79.74504249291785,
+      79.11931818181817,
+      81.25
+    ],
+    "seconds": 1.7117181000003256
+  },
+  {
+    "config": {
+      "name": "context_mlp",
+      "mode": "context",
+      "hidden": 64,
+      "hard_weight": 1
+    },
+    "oof": {
+      "n": 4755,
+      "correct": 4332,
+      "accuracy": 91.10410094637224,
+      "hard_n": 2114,
+      "hard_correct": 1694,
+      "hard_accuracy": 80.13245033112582
+    },
+    "fold_hard_accuracy": [
+      79.17847025495752,
+      78.55113636363636,
+      82.67045454545455
+    ],
+    "seconds": 3.126931300000251
+  },
+  {
+    "config": {
+      "name": "full_mlp",
+      "mode": "full",
+      "hidden": 64,
+      "hard_weight": 1
+    },
+    "oof": {
+      "n": 4755,
+      "correct": 4332,
+      "accuracy": 91.10410094637224,
+      "hard_n": 2114,
+      "hard_correct": 1693,
+      "hard_accuracy": 80.08514664143803
+    },
+    "fold_hard_accuracy": [
+      78.89518413597733,
+      77.8409090909091,
+      83.52272727272727
+    ],
+    "seconds": 15.625067899999522
+  },
+  {
+    "config": {
+      "name": "no_style_mlp",
+      "mode": "no_style",
+      "hidden": 64,
+      "hard_weight": 1
+    },
+    "oof": {
+      "n": 4755,
+      "correct": 4319,
+      "accuracy": 90.83070452155626,
+      "hard_n": 2114,
+      "hard_correct": 1682,
+      "hard_accuracy": 79.56480605487228
+    },
+    "fold_hard_accuracy": [
+      78.61189801699717,
+      77.98295454545455,
+      82.10227272727273
+    ],
+    "seconds": 17.941594900000382
+  },
+  {
+    "config": {
+      "name": "full_mlp_hard2",
+      "mode": "full",
+      "hidden": 64,
+      "hard_weight": 2
+    },
+    "oof": {
+      "n": 4755,
+      "correct": 4332,
+      "accuracy": 91.10410094637224,
+      "hard_n": 2114,
+      "hard_correct": 1693,
+      "hard_accuracy": 80.08514664143803
+    },
+    "fold_hard_accuracy": [
+      79.3201133144476,
+      77.8409090909091,
+      83.0965909090909
+    ],
+    "seconds": 16.690746400000535
+  }
+]

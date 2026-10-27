@@ -1,0 +1,151 @@
+{
+  "train_baseline": {
+    "n": 4755,
+    "correct": 4054,
+    "accuracy": 85.25762355415353,
+    "hard_n": 2114,
+    "hard_correct": 1413,
+    "hard_accuracy": 66.84011352885526
+  },
+  "validation_baseline": {
+    "n": 798,
+    "correct": 688,
+    "accuracy": 86.21553884711778,
+    "hard_n": 355,
+    "hard_correct": 245,
+    "hard_accuracy": 69.01408450704226
+  },
+  "selected_recipe": {
+    "name": "context_mlp",
+    "mode": "context",
+    "hidden": 64,
+    "hard_weight": 1
+  },
+  "validation": {
+    "n": 798,
+    "correct": 740,
+    "accuracy": 92.73182957393483,
+    "hard_n": 355,
+    "hard_correct": 297,
+    "hard_accuracy": 83.66197183098592
+  },
+  "validation_members": [
+    {
+      "n": 798,
+      "correct": 736,
+      "accuracy": 92.23057644110276,
+      "hard_n": 355,
+      "hard_correct": 293,
+      "hard_accuracy": 82.53521126760563
+    },
+    {
+      "n": 798,
+      "correct": 739,
+      "accuracy": 92.60651629072682,
+      "hard_n": 355,
+      "hard_correct": 296,
+      "hard_accuracy": 83.38028169014085
+    },
+    {
+      "n": 798,
+      "correct": 737,
+      "accuracy": 92.35588972431079,
+      "hard_n": 355,
+      "hard_correct": 294,
+      "hard_accuracy": 82.8169014084507
+    }
+  ],
+  "diagnostics": {
+    "groups": {
+      "2-1-1": {
+        "n": 88,
+        "correct": 67,
+        "accuracy": 76.13636363636364,
+        "hard_n": 88,
+        "hard_correct": 67,
+        "hard_accuracy": 76.13636363636364
+      },
+      "1-1-1-1": {
+        "n": 20,
+        "correct": 13,
+        "accuracy": 65.0,
+        "hard_n": 20,
+        "hard_correct": 13,
+        "hard_accuracy": 65.0
+      },
+      "2-1": {
+        "n": 28,
+        "correct": 24,
+        "accuracy": 85.71428571428571,
+        "hard_n": 28,
+        "hard_correct": 24,
+        "hard_accuracy": 85.71428571428571
+      },
+      "2-2": {
+        "n": 34,
+        "correct": 31,
+        "accuracy": 91.17647058823529,
+        "hard_n": 34,
+        "hard_correct": 31,
+        "hard_accuracy": 91.17647058823529
+      },
+      "3-1": {
+        "n": 151,
+        "correct": 137,
+        "accuracy": 90.72847682119205,
+        "hard_n": 151,
+        "hard_correct": 137,
+        "hard_accuracy": 90.72847682119205
+      },
+      "1-1-1": {
+        "n": 20,
+        "correct": 14,
+        "accuracy": 70.0,
+        "hard_n": 20,
+        "hard_correct": 14,
+        "hard_accuracy": 70.0
+      },
+      "1-1": {
+        "n": 14,
+        "correct": 11,
+        "accuracy": 78.57142857142857,
+        "hard_n": 14,
+        "hard_correct": 11,
+        "hard_accuracy": 78.57142857142857
+      }
+    },
+    "hard_fixed_majority": 67,
+    "hard_broke_majority": 15,
+    "hard_majority_wrong_accuracy": 60.909090909090914,
+    "hard_margin_bins_low_to_high": [
+      {
+        "n": 119,
+        "accuracy": 83.19327731092437,
+        "mean_margin": 0.501240074634552
+      },
+      {
+        "n": 118,
+        "accuracy": 80.50847457627118,
+        "mean_margin": 1.8239725828170776
+      },
+      {
+        "n": 118,
+        "accuracy": 87.28813559322035,
+        "mean_margin": 4.4966254234313965
+      }
+    ]
+  },
+  "permutation_score_equivalence": 1.0,
+  "permutation_literal_choice_agreement": 0.9987468671679198,
+  "asset_bytes": 1638571,
+  "training_seconds": 86.36058630000025,
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+    "numpy": "2.5.3",
+    "torch": "2.7.1+cu126",
+    "device": "CPU",
+    "threads": 4
+  },
+  "test_evaluated": false
+}

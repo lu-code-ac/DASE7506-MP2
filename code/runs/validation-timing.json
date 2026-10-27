@@ -1,0 +1,36 @@
+{
+  "split": "validation",
+  "total_wall_seconds": 0.9187541999999667,
+  "commands": [
+    {
+      "command": [
+        "D:\\Python3.12\\python.exe",
+        "predict.py",
+        "--method",
+        "method.py",
+        "--checkpoint",
+        "runs/model_bundle",
+        "--split",
+        "validation",
+        "--output",
+        "runs/validation-predictions.json"
+      ],
+      "wall_seconds": 0.6318185000000085
+    },
+    {
+      "command": [
+        "D:\\Python3.12\\python.exe",
+        "score_predictions.py",
+        "--split",
+        "validation",
+        "--predictions",
+        "runs/validation-predictions.json",
+        "--output",
+        "runs/validation-score.json"
+      ],
+      "wall_seconds": 0.28692919999957667
+    }
+  ],
+  "threads": 4,
+  "reference_machine_eligibility": "not verified; local hardware only"
+}

@@ -1,0 +1,83 @@
+{
+  "configs": [
+    {
+      "mode": "context_rich",
+      "loss": "bce",
+      "hidden": 0,
+      "hard_weight": 1,
+      "lr": 0.003,
+      "wd": 0.1,
+      "dropout": 0.35,
+      "device": "cuda"
+    },
+    {
+      "mode": "context_rich",
+      "loss": "bce",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.1,
+      "dropout": 0.35,
+      "device": "cuda"
+    },
+    {
+      "mode": "context_rich",
+      "loss": "pair",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.1,
+      "dropout": 0.35,
+      "device": "cuda"
+    },
+    {
+      "mode": "group_rich",
+      "loss": "bce",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.1,
+      "dropout": 0.35,
+      "device": "cuda"
+    },
+    {
+      "mode": "context_rich",
+      "loss": "bce",
+      "hidden": 0,
+      "hard_weight": 1,
+      "lr": 0.003,
+      "wd": 0.1,
+      "dropout": 0.35,
+      "device": "cuda",
+      "l2": 0.01
+    },
+    {
+      "mode": "context_rich",
+      "loss": "bce",
+      "hidden": 0,
+      "hard_weight": 1,
+      "lr": 0.003,
+      "wd": 0.1,
+      "dropout": 0.35,
+      "device": "cuda",
+      "l2": 0.1
+    }
+  ],
+  "epochs": [
+    10,
+    25,
+    60,
+    120
+  ],
+  "pools": [
+    "none",
+    "mean",
+    "max",
+    "logsumexp",
+    "logmeanexp"
+  ],
+  "fold_seed": 20261027,
+  "cv_seed": 17,
+  "criterion": "training hard OOF accuracy",
+  "test_use": "none; earlier V1 test result was already observed"
+}

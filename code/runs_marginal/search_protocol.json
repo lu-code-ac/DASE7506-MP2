@@ -1,0 +1,76 @@
+{
+  "configs": [
+    {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 0.5,
+      "device": "cuda"
+    },
+    {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.2,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    },
+    {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 64,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 2,
+      "device": "cuda"
+    },
+    {
+      "mode": "context",
+      "loss": "marginal",
+      "hidden": 128,
+      "hard_weight": 1,
+      "lr": 0.001,
+      "wd": 0.03,
+      "dropout": 0.35,
+      "temperature": 1,
+      "device": "cuda"
+    }
+  ],
+  "epochs": [
+    10,
+    25,
+    60,
+    120
+  ],
+  "pools": [
+    "none",
+    "mean",
+    "max",
+    "logsumexp",
+    "logmeanexp"
+  ],
+  "fold_seed": 20261027,
+  "cv_seed": 17,
+  "criterion": "training hard OOF accuracy",
+  "test_use": "none; earlier V1 test result was already observed"
+}

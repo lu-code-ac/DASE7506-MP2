@@ -1,0 +1,18 @@
+{
+  "config_index": 1,
+  "config": {
+    "gamma": 0.25,
+    "l2": 0.01,
+    "loss": "bce"
+  },
+  "epochs": 10,
+  "pool": "logmeanexp",
+  "oof": {
+    "n": 4755,
+    "correct": 4347,
+    "accuracy": 91.41955835962146,
+    "hard_n": 2114,
+    "hard_correct": 1706,
+    "hard_accuracy": 80.70009460737938
+  }
+}

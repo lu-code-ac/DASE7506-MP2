@@ -1,0 +1,29 @@
+{
+  "config_index": 0,
+  "config": {
+    "mode": "context",
+    "loss": "marginal",
+    "hidden": 64,
+    "hard_weight": 1,
+    "lr": 0.001,
+    "wd": 0.03,
+    "dropout": 0.2,
+    "temperature": 0.5,
+    "device": "cuda"
+  },
+  "epochs": 25,
+  "pool": "logsumexp",
+  "oof": {
+    "n": 4755,
+    "correct": 4322,
+    "accuracy": 90.8937960042061,
+    "hard_n": 2114,
+    "hard_correct": 1687,
+    "hard_accuracy": 79.80132450331125
+  },
+  "fold_hard_accuracy": [
+    79.3201133144476,
+    78.83522727272727,
+    81.25
+  ]
+}

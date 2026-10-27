@@ -1,0 +1,42 @@
+{
+  "configs": [
+    {
+      "gamma": 0.25,
+      "l2": 0.001,
+      "loss": "bce"
+    },
+    {
+      "gamma": 0.25,
+      "l2": 0.01,
+      "loss": "bce"
+    },
+    {
+      "gamma": 1,
+      "l2": 0.001,
+      "loss": "bce"
+    },
+    {
+      "gamma": 1,
+      "l2": 0.01,
+      "loss": "bce"
+    },
+    {
+      "gamma": 4,
+      "l2": 0.001,
+      "loss": "bce"
+    },
+    {
+      "gamma": 4,
+      "l2": 0.01,
+      "loss": "bce"
+    }
+  ],
+  "epochs": [
+    10,
+    25,
+    60
+  ],
+  "seed": 17,
+  "projection_seed": 314159,
+  "test_use": "none"
+}

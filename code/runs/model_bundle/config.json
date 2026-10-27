@@ -1,0 +1,21 @@
+{
+  "mode": "context",
+  "members": [
+    "member_17.npz",
+    "member_29.npz",
+    "member_43.npz"
+  ],
+  "recipe": {
+    "name": "context_mlp",
+    "mode": "context",
+    "hidden": 64,
+    "hard_weight": 1
+  },
+  "epochs": 25,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "selection": "training-only three-fold OOF hard accuracy; fixed 25 epochs by default"
+}

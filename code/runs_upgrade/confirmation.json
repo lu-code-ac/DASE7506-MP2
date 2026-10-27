@@ -1,0 +1,356 @@
+{
+  "families": [
+    {
+      "family": {
+        "config_index": 1,
+        "config": {
+          "mode": "context",
+          "loss": "bce",
+          "hidden": 0,
+          "hard_weight": 1,
+          "lr": 0.003,
+          "wd": 0.1,
+          "dropout": 0.35,
+          "device": "cuda"
+        },
+        "epochs": 10,
+        "pool": "logmeanexp",
+        "oof": {
+          "n": 4755,
+          "correct": 4358,
+          "accuracy": 91.65089379600421,
+          "hard_n": 2114,
+          "hard_correct": 1717,
+          "hard_accuracy": 81.22043519394512
+        },
+        "fold_hard_accuracy": [
+          80.45325779036827,
+          80.11363636363636,
+          83.0965909090909
+        ],
+        "directory": "runs_v2"
+      },
+      "individual_seeds": [
+        {
+          "n": 4755,
+          "correct": 4358,
+          "accuracy": 91.65089379600421,
+          "hard_n": 2114,
+          "hard_correct": 1717,
+          "hard_accuracy": 81.22043519394512
+        },
+        {
+          "n": 4755,
+          "correct": 4361,
+          "accuracy": 91.71398527865405,
+          "hard_n": 2114,
+          "hard_correct": 1720,
+          "hard_accuracy": 81.3623462630085
+        },
+        {
+          "n": 4755,
+          "correct": 4350,
+          "accuracy": 91.48264984227129,
+          "hard_n": 2114,
+          "hard_correct": 1709,
+          "hard_accuracy": 80.84200567644277
+        }
+      ],
+      "ensemble_oof": {
+        "n": 4755,
+        "correct": 4360,
+        "accuracy": 91.69295478443743,
+        "hard_n": 2114,
+        "hard_correct": 1719,
+        "hard_accuracy": 81.31504257332071
+      }
+    },
+    {
+      "family": {
+        "config_index": 4,
+        "config": {
+          "mode": "context_rich",
+          "loss": "bce",
+          "hidden": 0,
+          "hard_weight": 1,
+          "lr": 0.003,
+          "wd": 0.1,
+          "dropout": 0.35,
+          "device": "cuda",
+          "l2": 0.01
+        },
+        "epochs": 10,
+        "pool": "logmeanexp",
+        "oof": {
+          "n": 4755,
+          "correct": 4371,
+          "accuracy": 91.9242902208202,
+          "hard_n": 2114,
+          "hard_correct": 1730,
+          "hard_accuracy": 81.83538315988646
+        },
+        "fold_hard_accuracy": [
+          80.87818696883853,
+          80.68181818181817,
+          83.94886363636364
+        ],
+        "directory": "runs_rich"
+      },
+      "individual_seeds": [
+        {
+          "n": 4755,
+          "correct": 4371,
+          "accuracy": 91.9242902208202,
+          "hard_n": 2114,
+          "hard_correct": 1730,
+          "hard_accuracy": 81.83538315988646
+        },
+        {
+          "n": 4755,
+          "correct": 4365,
+          "accuracy": 91.7981072555205,
+          "hard_n": 2114,
+          "hard_correct": 1724,
+          "hard_accuracy": 81.5515610217597
+        },
+        {
+          "n": 4755,
+          "correct": 4354,
+          "accuracy": 91.56677181913776,
+          "hard_n": 2114,
+          "hard_correct": 1713,
+          "hard_accuracy": 81.03122043519394
+        }
+      ],
+      "ensemble_oof": {
+        "n": 4755,
+        "correct": 4365,
+        "accuracy": 91.7981072555205,
+        "hard_n": 2114,
+        "hard_correct": 1724,
+        "hard_accuracy": 81.5515610217597
+      }
+    },
+    {
+      "family": {
+        "config_index": 1,
+        "config": {
+          "mode": "context_rich",
+          "loss": "bce",
+          "hidden": 64,
+          "hard_weight": 1,
+          "lr": 0.001,
+          "wd": 0.1,
+          "dropout": 0.35,
+          "device": "cuda"
+        },
+        "epochs": 25,
+        "pool": "logmeanexp",
+        "oof": {
+          "n": 4755,
+          "correct": 4362,
+          "accuracy": 91.73501577287067,
+          "hard_n": 2114,
+          "hard_correct": 1721,
+          "hard_accuracy": 81.4096499526963
+        },
+        "fold_hard_accuracy": [
+          81.01983002832861,
+          79.11931818181817,
+          84.0909090909091
+        ],
+        "directory": "runs_rich"
+      },
+      "individual_seeds": [
+        {
+          "n": 4755,
+          "correct": 4362,
+          "accuracy": 91.73501577287067,
+          "hard_n": 2114,
+          "hard_correct": 1721,
+          "hard_accuracy": 81.4096499526963
+        },
+        {
+          "n": 4755,
+          "correct": 4355,
+          "accuracy": 91.58780231335436,
+          "hard_n": 2114,
+          "hard_correct": 1714,
+          "hard_accuracy": 81.07852412488174
+        },
+        {
+          "n": 4755,
+          "correct": 4352,
+          "accuracy": 91.52471083070452,
+          "hard_n": 2114,
+          "hard_correct": 1711,
+          "hard_accuracy": 80.93661305581836
+        }
+      ],
+      "ensemble_oof": {
+        "n": 4755,
+        "correct": 4365,
+        "accuracy": 91.7981072555205,
+        "hard_n": 2114,
+        "hard_correct": 1724,
+        "hard_accuracy": 81.5515610217597
+      }
+    }
+  ],
+  "comparisons": [
+    {
+      "families": [
+        0
+      ],
+      "oof": {
+        "n": 4755,
+        "correct": 4360,
+        "accuracy": 91.69295478443743,
+        "hard_n": 2114,
+        "hard_correct": 1719,
+        "hard_accuracy": 81.31504257332071
+      },
+      "fold_hard_accuracy": [
+        81.16147308781869,
+        80.53977272727273,
+        82.24431818181817
+      ]
+    },
+    {
+      "families": [
+        1
+      ],
+      "oof": {
+        "n": 4755,
+        "correct": 4365,
+        "accuracy": 91.7981072555205,
+        "hard_n": 2114,
+        "hard_correct": 1724,
+        "hard_accuracy": 81.5515610217597
+      },
+      "fold_hard_accuracy": [
+        80.87818696883853,
+        80.9659090909091,
+        82.8125
+      ]
+    },
+    {
+      "families": [
+        2
+      ],
+      "oof": {
+        "n": 4755,
+        "correct": 4365,
+        "accuracy": 91.7981072555205,
+        "hard_n": 2114,
+        "hard_correct": 1724,
+        "hard_accuracy": 81.5515610217597
+      },
+      "fold_hard_accuracy": [
+        81.30311614730878,
+        79.11931818181817,
+        84.23295454545455
+      ]
+    },
+    {
+      "families": [
+        0,
+        1
+      ],
+      "oof": {
+        "n": 4755,
+        "correct": 4362,
+        "accuracy": 91.73501577287067,
+        "hard_n": 2114,
+        "hard_correct": 1721,
+        "hard_accuracy": 81.4096499526963
+      },
+      "fold_hard_accuracy": [
+        81.16147308781869,
+        80.53977272727273,
+        82.5284090909091
+      ]
+    },
+    {
+      "families": [
+        0,
+        2
+      ],
+      "oof": {
+        "n": 4755,
+        "correct": 4374,
+        "accuracy": 91.98738170347002,
+        "hard_n": 2114,
+        "hard_correct": 1733,
+        "hard_accuracy": 81.97729422894986
+      },
+      "fold_hard_accuracy": [
+        81.01983002832861,
+        80.68181818181817,
+        84.23295454545455
+      ]
+    },
+    {
+      "families": [
+        1,
+        2
+      ],
+      "oof": {
+        "n": 4755,
+        "correct": 4374,
+        "accuracy": 91.98738170347002,
+        "hard_n": 2114,
+        "hard_correct": 1733,
+        "hard_accuracy": 81.97729422894986
+      },
+      "fold_hard_accuracy": [
+        80.87818696883853,
+        80.82386363636364,
+        84.23295454545455
+      ]
+    },
+    {
+      "families": [
+        0,
+        1,
+        2
+      ],
+      "oof": {
+        "n": 4755,
+        "correct": 4369,
+        "accuracy": 91.88222923238696,
+        "hard_n": 2114,
+        "hard_correct": 1728,
+        "hard_accuracy": 81.74077578051087
+      },
+      "fold_hard_accuracy": [
+        81.30311614730878,
+        80.25568181818183,
+        83.66477272727273
+      ]
+    }
+  ],
+  "selected": {
+    "families": [
+      0,
+      2
+    ],
+    "oof": {
+      "n": 4755,
+      "correct": 4374,
+      "accuracy": 91.98738170347002,
+      "hard_n": 2114,
+      "hard_correct": 1733,
+      "hard_accuracy": 81.97729422894986
+    },
+    "fold_hard_accuracy": [
+      81.01983002832861,
+      80.68181818181817,
+      84.23295454545455
+    ]
+  },
+  "validation_accessed": false,
+  "test_accessed": false,
+  "search_fit_count": 27,
+  "seconds": 52.63176249999924
+}

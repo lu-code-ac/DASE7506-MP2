@@ -1,0 +1,78 @@
+{
+  "recommendation": "retain frozen V1; no verified validation improvement",
+  "V1_validation_hard_accuracy": 83.66197183098592,
+  "V1_test_accuracy_previously_observed": 79.65738758029978,
+  "candidate_validation_results": [
+    {
+      "name": "BCE / answer-pooling ensemble",
+      "validation": {
+        "n": 798,
+        "correct": 734,
+        "accuracy": 91.97994987468672,
+        "hard_n": 355,
+        "hard_correct": 291,
+        "hard_accuracy": 81.97183098591549
+      }
+    },
+    {
+      "name": "Learned set comparator",
+      "validation": {
+        "n": 798,
+        "correct": 736,
+        "accuracy": 92.23057644110276,
+        "hard_n": 355,
+        "hard_correct": 293,
+        "hard_accuracy": 82.53521126760563
+      }
+    },
+    {
+      "name": "Random Fourier feature model",
+      "validation": {
+        "n": 798,
+        "correct": 733,
+        "accuracy": 91.8546365914787,
+        "hard_n": 355,
+        "hard_correct": 290,
+        "hard_accuracy": 81.69014084507043
+      }
+    },
+    {
+      "name": "Hashed lexical residual",
+      "validation": {
+        "n": 798,
+        "correct": 739,
+        "accuracy": 92.60651629072682,
+        "hard_n": 355,
+        "hard_correct": 296,
+        "hard_accuracy": 83.38028169014085
+      }
+    },
+    {
+      "name": "V1 + lexical answer fusion",
+      "validation": {
+        "n": 798,
+        "correct": 736,
+        "accuracy": 92.23057644110276,
+        "hard_n": 355,
+        "hard_correct": 293,
+        "hard_accuracy": 82.53521126760563
+      }
+    }
+  ],
+  "primary_search_recipe_checks": {
+    "runs_v2": 200,
+    "runs_rich": 120,
+    "runs_set": 24,
+    "runs_rff": 54,
+    "runs_text": 12,
+    "runs_marginal": 100
+  },
+  "V2_test_scoring_runs": 0,
+  "V1_freeze_verified": true,
+  "notes": [
+    "Training-only OOF improvements did not consistently transfer to validation.",
+    "Validation was used to reject upgrades, never test references.",
+    "Original test score was known before follow-up; no fresh test performance claim is made.",
+    "Reported candidate-level margins from answer-pooled models contain ties and are not calibrated uncertainty."
+  ]
+}

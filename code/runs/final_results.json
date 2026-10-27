@@ -1,0 +1,73 @@
+{
+  "validation": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "validation",
+    "correct": 740,
+    "n": 798,
+    "accuracy": 92.73182957393483,
+    "scoring_seconds": 0.05062099999850034
+  },
+  "validation_hard": {
+    "n": 798,
+    "correct": 740,
+    "accuracy": 92.73182957393483,
+    "hard_n": 355,
+    "hard_correct": 297,
+    "hard_accuracy": 83.66197183098592
+  },
+  "test": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "test",
+    "correct": 372,
+    "n": 467,
+    "accuracy": 79.65738758029978,
+    "scoring_seconds": 0.04162970000106725
+  },
+  "test_majority_baseline": {
+    "protocol": "dase7506-mp2-open-hard-verifier-v5",
+    "split": "test",
+    "correct": 323,
+    "n": 467,
+    "accuracy": 69.16488222698072,
+    "scoring_seconds": 0.03647180000007211
+  },
+  "test_timing": {
+    "split": "test",
+    "total_wall_seconds": 0.713375499999529,
+    "commands": [
+      {
+        "command": [
+          "D:\\Python3.12\\python.exe",
+          "predict.py",
+          "--method",
+          "method.py",
+          "--checkpoint",
+          "runs/model_bundle",
+          "--split",
+          "test",
+          "--output",
+          "runs/test-predictions.json"
+        ],
+        "wall_seconds": 0.45071199999983946
+      },
+      {
+        "command": [
+          "D:\\Python3.12\\python.exe",
+          "score_predictions.py",
+          "--split",
+          "test",
+          "--predictions",
+          "runs/test-predictions.json",
+          "--output",
+          "runs/test-score.json"
+        ],
+        "wall_seconds": 0.2626560000007885
+      }
+    ],
+    "threads": 4,
+    "reference_machine_eligibility": "not verified; local hardware only"
+  },
+  "frozen_hashes_verified_after_test": true,
+  "new_id_subset_reordering_check": "passed, 5 questions including repeat",
+  "model_selection_after_test": false
+}

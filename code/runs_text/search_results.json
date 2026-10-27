@@ -1,0 +1,194 @@
+[
+  {
+    "config_index": 0,
+    "config": {
+      "loss": "pair",
+      "l2": 0.0001
+    },
+    "epochs": 10,
+    "oof": {
+      "n": 4755,
+      "correct": 4336,
+      "accuracy": 91.1882229232387,
+      "hard_n": 2114,
+      "hard_correct": 1695,
+      "hard_accuracy": 80.17975402081362
+    }
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "loss": "pair",
+      "l2": 0.0001
+    },
+    "epochs": 25,
+    "oof": {
+      "n": 4755,
+      "correct": 4347,
+      "accuracy": 91.41955835962146,
+      "hard_n": 2114,
+      "hard_correct": 1706,
+      "hard_accuracy": 80.70009460737938
+    }
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "loss": "pair",
+      "l2": 0.0001
+    },
+    "epochs": 60,
+    "oof": {
+      "n": 4755,
+      "correct": 4348,
+      "accuracy": 91.44058885383807,
+      "hard_n": 2114,
+      "hard_correct": 1707,
+      "hard_accuracy": 80.74739829706718
+    }
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "loss": "pair",
+      "l2": 0.001
+    },
+    "epochs": 10,
+    "oof": {
+      "n": 4755,
+      "correct": 4340,
+      "accuracy": 91.27234490010515,
+      "hard_n": 2114,
+      "hard_correct": 1699,
+      "hard_accuracy": 80.36896877956481
+    }
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "loss": "pair",
+      "l2": 0.001
+    },
+    "epochs": 25,
+    "oof": {
+      "n": 4755,
+      "correct": 4345,
+      "accuracy": 91.37749737118823,
+      "hard_n": 2114,
+      "hard_correct": 1704,
+      "hard_accuracy": 80.60548722800378
+    }
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "loss": "pair",
+      "l2": 0.001
+    },
+    "epochs": 60,
+    "oof": {
+      "n": 4755,
+      "correct": 4351,
+      "accuracy": 91.5036803364879,
+      "hard_n": 2114,
+      "hard_correct": 1710,
+      "hard_accuracy": 80.88930936613056
+    }
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "loss": "mixed",
+      "l2": 0.0001
+    },
+    "epochs": 10,
+    "oof": {
+      "n": 4755,
+      "correct": 4351,
+      "accuracy": 91.5036803364879,
+      "hard_n": 2114,
+      "hard_correct": 1710,
+      "hard_accuracy": 80.88930936613056
+    }
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "loss": "mixed",
+      "l2": 0.0001
+    },
+    "epochs": 25,
+    "oof": {
+      "n": 4755,
+      "correct": 4337,
+      "accuracy": 91.2092534174553,
+      "hard_n": 2114,
+      "hard_correct": 1696,
+      "hard_accuracy": 80.22705771050141
+    }
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "loss": "mixed",
+      "l2": 0.0001
+    },
+    "epochs": 60,
+    "oof": {
+      "n": 4755,
+      "correct": 4329,
+      "accuracy": 91.0410094637224,
+      "hard_n": 2114,
+      "hard_correct": 1688,
+      "hard_accuracy": 79.84862819299904
+    }
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "loss": "mixed",
+      "l2": 0.001
+    },
+    "epochs": 10,
+    "oof": {
+      "n": 4755,
+      "correct": 4341,
+      "accuracy": 91.29337539432176,
+      "hard_n": 2114,
+      "hard_correct": 1700,
+      "hard_accuracy": 80.4162724692526
+    }
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "loss": "mixed",
+      "l2": 0.001
+    },
+    "epochs": 25,
+    "oof": {
+      "n": 4755,
+      "correct": 4332,
+      "accuracy": 91.10410094637224,
+      "hard_n": 2114,
+      "hard_correct": 1691,
+      "hard_accuracy": 79.99053926206244
+    }
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "loss": "mixed",
+      "l2": 0.001
+    },
+    "epochs": 60,
+    "oof": {
+      "n": 4755,
+      "correct": 4326,
+      "accuracy": 90.97791798107255,
+      "hard_n": 2114,
+      "hard_correct": 1685,
+      "hard_accuracy": 79.70671712393566
+    }
+  }
+]

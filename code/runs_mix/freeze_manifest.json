@@ -1,0 +1,19 @@
+{
+  "stage": "before any V2 test evaluation",
+  "V1_test_observed_previously": true,
+  "files": {
+    "mix_method.py": "ebc89170ae9cbb9b6d612f255f57dbedb2f670898925934655908e16616c4c7c",
+    "text_method.py": "bd79bd1616bfc432e3e4ded02e662512ca5f97226039ab9561e77f99301031bd",
+    "features.py": "30d0880e32283712d70a6836f3e06dbbb62aca7b47a43d9caedf3d3eebb71f06",
+    "train_text.py": "95f6207ae8a7c8fb2679ef3d00935d1a2f808e11248b4524fc3255dfaebaead7",
+    "confirm_text.py": "fd475c0fc490ec502242b73d3cfd10f12561d638c0007de61b6ea9a93e938957",
+    "select_mix.py": "64aada93610ab408aef257ad61c452fb75954faf3c15980ba04e5dad4e768001",
+    "runs_mix\\model_bundle\\config.json": "e9a4e42d6bd2ab9e69904abbf095fa587d30cd36d8168511cb665d9ac4ae4e15",
+    "runs_mix\\model_bundle\\text_seed17.npz": "0783adbec8911daa76af6570d2c2cc73ae34df76d56ad4fc2fd53e3baba3f95e",
+    "runs_mix\\model_bundle\\text_seed29.npz": "9fa03ba45c9c852559c89dfd52c201de4a108544272650dd9849b4640e7598c9",
+    "runs_mix\\model_bundle\\text_seed43.npz": "7f7f29c653b4279f08d6c3d806dcf8575e1046cf19b36da9ebdd266f60610639",
+    "runs_mix\\model_bundle\\v1_member_17.npz": "b6988e02206b92d94878d7fe089db4421ed868730fa083b45e40753ce7a6a951",
+    "runs_mix\\model_bundle\\v1_member_29.npz": "86b562c952c38674a4c9ae429100f76398cd701b6e264a50c6289c6245fb85fc",
+    "runs_mix\\model_bundle\\v1_member_43.npz": "9c2103eb9165198a5479a52403dbcc90baa5bbf7e36831e9e511d2c29c6a1ce3"
+  }
+}

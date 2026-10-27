@@ -1,0 +1,11 @@
+{
+  "validation": {
+    "n": 798,
+    "correct": 739,
+    "accuracy": 92.60651629072682,
+    "hard_n": 355,
+    "hard_correct": 296,
+    "hard_accuracy": 83.38028169014085
+  },
+  "seconds": 67.93013940000128
+}

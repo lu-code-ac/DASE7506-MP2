@@ -1,0 +1,29 @@
+{
+  "config_index": 4,
+  "config": {
+    "mode": "context_rich",
+    "loss": "bce",
+    "hidden": 0,
+    "hard_weight": 1,
+    "lr": 0.003,
+    "wd": 0.1,
+    "dropout": 0.35,
+    "device": "cuda",
+    "l2": 0.01
+  },
+  "epochs": 10,
+  "pool": "logmeanexp",
+  "oof": {
+    "n": 4755,
+    "correct": 4371,
+    "accuracy": 91.9242902208202,
+    "hard_n": 2114,
+    "hard_correct": 1730,
+    "hard_accuracy": 81.83538315988646
+  },
+  "fold_hard_accuracy": [
+    80.87818696883853,
+    80.68181818181817,
+    83.94886363636364
+  ]
+}

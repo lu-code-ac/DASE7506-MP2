@@ -1,0 +1,309 @@
+{
+  "comparisons": [
+    {
+      "config": {
+        "mode": "candidate_score",
+        "v1_weight": 0.25,
+        "temperature": 1,
+        "scales": [
+          3.149908769879524,
+          4.353673464037883
+        ]
+      },
+      "oof": {
+        "n": 4755,
+        "correct": 4349,
+        "accuracy": 91.46161934805468,
+        "hard_n": 2114,
+        "hard_correct": 1708,
+        "hard_accuracy": 80.79470198675497
+      }
+    },
+    {
+      "config": {
+        "mode": "candidate_score",
+        "v1_weight": 0.5,
+        "temperature": 1,
+        "scales": [
+          3.149908769879524,
+          4.353673464037883
+        ]
+      },
+      "oof": {
+        "n": 4755,
+        "correct": 4348,
+        "accuracy": 91.44058885383807,
+        "hard_n": 2114,
+        "hard_correct": 1707,
+        "hard_accuracy": 80.74739829706718
+      }
+    },
+    {
+      "config": {
+        "mode": "candidate_score",
+        "v1_weight": 0.75,
+        "temperature": 1,
+        "scales": [
+          3.149908769879524,
+          4.353673464037883
+        ]
+      },
+      "oof": {
+        "n": 4755,
+        "correct": 4346,
+        "accuracy": 91.39852786540483,
+        "hard_n": 2114,
+        "hard_correct": 1705,
+        "hard_accuracy": 80.65279091769158
+      }
+    },
+    {
+      "config": {
+        "mode": "answer_probability",
+        "v1_weight": 0.25,
+        "temperature": 0.25,
+        "scales": [
+          3.149908769879524,
+          4.353673464037883
+        ]
+      },
+      "oof": {
+        "n": 4755,
+        "correct": 4348,
+        "accuracy": 91.44058885383807,
+        "hard_n": 2114,
+        "hard_correct": 1707,
+        "hard_accuracy": 80.74739829706718
+      }
+    },
+    {
+      "config": {
+        "mode": "answer_probability",
+        "v1_weight": 0.25,
+        "temperature": 0.5,
+        "scales": [
+          3.149908769879524,
+          4.353673464037883
+        ]
+      },
+      "oof": {
+        "n": 4755,
+        "correct": 4346,
+        "accuracy": 91.39852786540483,
+        "hard_n": 2114,
+        "hard_correct": 1705,
+        "hard_accuracy": 80.65279091769158
+      }
+    },
+    {
+      "config": {
+        "mode": "answer_probability",
+        "v1_weight": 0.25,
+        "temperature": 1,
+        "scales": [
+          3.149908769879524,
+          4.353673464037883
+        ]
+      },
+      "oof": {
+        "n": 4755,
+        "correct": 4326,
+        "accuracy": 90.97791798107255,
+        "hard_n": 2114,
+        "hard_correct": 1685,
+        "hard_accuracy": 79.70671712393566
+      }
+    },
+    {
+      "config": {
+        "mode": "answer_probability",
+        "v1_weight": 0.25,
+        "temperature": 2,
+        "scales": [
+          3.149908769879524,
+          4.353673464037883
+        ]
+      },
+      "oof": {
+        "n": 4755,
+        "correct": 4281,
+        "accuracy": 90.03154574132492,
+        "hard_n": 2114,
+        "hard_correct": 1640,
+        "hard_accuracy": 77.57805108798486
+      }
+    },
+    {
+      "config": {
+        "mode": "answer_probability",
+        "v1_weight": 0.5,
+        "temperature": 0.25,
+        "scales": [
+          3.149908769879524,
+          4.353673464037883
+        ]
+      },
+      "oof": {
+        "n": 4755,
+        "correct": 4350,
+        "accuracy": 91.48264984227129,
+        "hard_n": 2114,
+        "hard_correct": 1709,
+        "hard_accuracy": 80.84200567644277
+      }
+    },
+    {
+      "config": {
+        "mode": "answer_probability",
+        "v1_weight": 0.5,
+        "temperature": 0.5,
+        "scales": [
+          3.149908769879524,
+          4.353673464037883
+        ]
+      },
+      "oof": {
+        "n": 4755,
+        "correct": 4345,
+        "accuracy": 91.37749737118823,
+        "hard_n": 2114,
+        "hard_correct": 1704,
+        "hard_accuracy": 80.60548722800378
+      }
+    },
+    {
+      "config": {
+        "mode": "answer_probability",
+        "v1_weight": 0.5,
+        "temperature": 1,
+        "scales": [
+          3.149908769879524,
+          4.353673464037883
+        ]
+      },
+      "oof": {
+        "n": 4755,
+        "correct": 4326,
+        "accuracy": 90.97791798107255,
+        "hard_n": 2114,
+        "hard_correct": 1685,
+        "hard_accuracy": 79.70671712393566
+      }
+    },
+    {
+      "config": {
+        "mode": "answer_probability",
+        "v1_weight": 0.5,
+        "temperature": 2,
+        "scales": [
+          3.149908769879524,
+          4.353673464037883
+        ]
+      },
+      "oof": {
+        "n": 4755,
+        "correct": 4276,
+        "accuracy": 89.92639327024186,
+        "hard_n": 2114,
+        "hard_correct": 1635,
+        "hard_accuracy": 77.34153263954589
+      }
+    },
+    {
+      "config": {
+        "mode": "answer_probability",
+        "v1_weight": 0.75,
+        "temperature": 0.25,
+        "scales": [
+          3.149908769879524,
+          4.353673464037883
+        ]
+      },
+      "oof": {
+        "n": 4755,
+        "correct": 4345,
+        "accuracy": 91.37749737118823,
+        "hard_n": 2114,
+        "hard_correct": 1704,
+        "hard_accuracy": 80.60548722800378
+      }
+    },
+    {
+      "config": {
+        "mode": "answer_probability",
+        "v1_weight": 0.75,
+        "temperature": 0.5,
+        "scales": [
+          3.149908769879524,
+          4.353673464037883
+        ]
+      },
+      "oof": {
+        "n": 4755,
+        "correct": 4348,
+        "accuracy": 91.44058885383807,
+        "hard_n": 2114,
+        "hard_correct": 1707,
+        "hard_accuracy": 80.74739829706718
+      }
+    },
+    {
+      "config": {
+        "mode": "answer_probability",
+        "v1_weight": 0.75,
+        "temperature": 1,
+        "scales": [
+          3.149908769879524,
+          4.353673464037883
+        ]
+      },
+      "oof": {
+        "n": 4755,
+        "correct": 4333,
+        "accuracy": 91.12513144058886,
+        "hard_n": 2114,
+        "hard_correct": 1692,
+        "hard_accuracy": 80.03784295175024
+      }
+    },
+    {
+      "config": {
+        "mode": "answer_probability",
+        "v1_weight": 0.75,
+        "temperature": 2,
+        "scales": [
+          3.149908769879524,
+          4.353673464037883
+        ]
+      },
+      "oof": {
+        "n": 4755,
+        "correct": 4278,
+        "accuracy": 89.96845425867508,
+        "hard_n": 2114,
+        "hard_correct": 1637,
+        "hard_accuracy": 77.43614001892148
+      }
+    }
+  ],
+  "winner": {
+    "config": {
+      "mode": "answer_probability",
+      "v1_weight": 0.5,
+      "temperature": 0.25,
+      "scales": [
+        3.149908769879524,
+        4.353673464037883
+      ]
+    },
+    "oof": {
+      "n": 4755,
+      "correct": 4350,
+      "accuracy": 91.48264984227129,
+      "hard_n": 2114,
+      "hard_correct": 1709,
+      "hard_accuracy": 80.84200567644277
+    }
+  },
+  "selection": "training-only three-seed OOF; no validation labels in selection"
+}

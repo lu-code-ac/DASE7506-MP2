@@ -1,0 +1,434 @@
+[
+  {
+    "config_index": 0,
+    "config": {
+      "rich": false,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "pair"
+    },
+    "epochs": 10,
+    "oof": {
+      "n": 4755,
+      "correct": 4321,
+      "accuracy": 90.87276550998948,
+      "hard_n": 2114,
+      "hard_correct": 1680,
+      "hard_accuracy": 79.47019867549669
+    }
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "rich": false,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "pair"
+    },
+    "epochs": 25,
+    "oof": {
+      "n": 4755,
+      "correct": 4317,
+      "accuracy": 90.78864353312302,
+      "hard_n": 2114,
+      "hard_correct": 1676,
+      "hard_accuracy": 79.28098391674551
+    }
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "rich": false,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "pair"
+    },
+    "epochs": 60,
+    "oof": {
+      "n": 4755,
+      "correct": 4316,
+      "accuracy": 90.76761303890642,
+      "hard_n": 2114,
+      "hard_correct": 1675,
+      "hard_accuracy": 79.23368022705772
+    }
+  },
+  {
+    "config_index": 0,
+    "config": {
+      "rich": false,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "pair"
+    },
+    "epochs": 120,
+    "oof": {
+      "n": 4755,
+      "correct": 4316,
+      "accuracy": 90.76761303890642,
+      "hard_n": 2114,
+      "hard_correct": 1675,
+      "hard_accuracy": 79.23368022705772
+    }
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "rich": false,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "bce"
+    },
+    "epochs": 10,
+    "oof": {
+      "n": 4755,
+      "correct": 4293,
+      "accuracy": 90.28391167192429,
+      "hard_n": 2114,
+      "hard_correct": 1652,
+      "hard_accuracy": 78.1456953642384
+    }
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "rich": false,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "bce"
+    },
+    "epochs": 25,
+    "oof": {
+      "n": 4755,
+      "correct": 4309,
+      "accuracy": 90.62039957939012,
+      "hard_n": 2114,
+      "hard_correct": 1668,
+      "hard_accuracy": 78.90255439924314
+    }
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "rich": false,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "bce"
+    },
+    "epochs": 60,
+    "oof": {
+      "n": 4755,
+      "correct": 4304,
+      "accuracy": 90.51524710830704,
+      "hard_n": 2114,
+      "hard_correct": 1663,
+      "hard_accuracy": 78.66603595080416
+    }
+  },
+  {
+    "config_index": 1,
+    "config": {
+      "rich": false,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "bce"
+    },
+    "epochs": 120,
+    "oof": {
+      "n": 4755,
+      "correct": 4314,
+      "accuracy": 90.7255520504732,
+      "hard_n": 2114,
+      "hard_correct": 1673,
+      "hard_accuracy": 79.13907284768213
+    }
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "rich": false,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "mixed"
+    },
+    "epochs": 10,
+    "oof": {
+      "n": 4755,
+      "correct": 4326,
+      "accuracy": 90.97791798107255,
+      "hard_n": 2114,
+      "hard_correct": 1685,
+      "hard_accuracy": 79.70671712393566
+    }
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "rich": false,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "mixed"
+    },
+    "epochs": 25,
+    "oof": {
+      "n": 4755,
+      "correct": 4321,
+      "accuracy": 90.87276550998948,
+      "hard_n": 2114,
+      "hard_correct": 1680,
+      "hard_accuracy": 79.47019867549669
+    }
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "rich": false,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "mixed"
+    },
+    "epochs": 60,
+    "oof": {
+      "n": 4755,
+      "correct": 4312,
+      "accuracy": 90.68349106203996,
+      "hard_n": 2114,
+      "hard_correct": 1671,
+      "hard_accuracy": 79.04446546830653
+    }
+  },
+  {
+    "config_index": 2,
+    "config": {
+      "rich": false,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "mixed"
+    },
+    "epochs": 120,
+    "oof": {
+      "n": 4755,
+      "correct": 4314,
+      "accuracy": 90.7255520504732,
+      "hard_n": 2114,
+      "hard_correct": 1673,
+      "hard_accuracy": 79.13907284768213
+    }
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "rich": true,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "pair"
+    },
+    "epochs": 10,
+    "oof": {
+      "n": 4755,
+      "correct": 4350,
+      "accuracy": 91.48264984227129,
+      "hard_n": 2114,
+      "hard_correct": 1709,
+      "hard_accuracy": 80.84200567644277
+    }
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "rich": true,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "pair"
+    },
+    "epochs": 25,
+    "oof": {
+      "n": 4755,
+      "correct": 4343,
+      "accuracy": 91.33543638275499,
+      "hard_n": 2114,
+      "hard_correct": 1702,
+      "hard_accuracy": 80.51087984862819
+    }
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "rich": true,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "pair"
+    },
+    "epochs": 60,
+    "oof": {
+      "n": 4755,
+      "correct": 4343,
+      "accuracy": 91.33543638275499,
+      "hard_n": 2114,
+      "hard_correct": 1702,
+      "hard_accuracy": 80.51087984862819
+    }
+  },
+  {
+    "config_index": 3,
+    "config": {
+      "rich": true,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "pair"
+    },
+    "epochs": 120,
+    "oof": {
+      "n": 4755,
+      "correct": 4340,
+      "accuracy": 91.27234490010515,
+      "hard_n": 2114,
+      "hard_correct": 1699,
+      "hard_accuracy": 80.36896877956481
+    }
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "rich": true,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "bce"
+    },
+    "epochs": 10,
+    "oof": {
+      "n": 4755,
+      "correct": 4333,
+      "accuracy": 91.12513144058886,
+      "hard_n": 2114,
+      "hard_correct": 1692,
+      "hard_accuracy": 80.03784295175024
+    }
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "rich": true,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "bce"
+    },
+    "epochs": 25,
+    "oof": {
+      "n": 4755,
+      "correct": 4336,
+      "accuracy": 91.1882229232387,
+      "hard_n": 2114,
+      "hard_correct": 1695,
+      "hard_accuracy": 80.17975402081362
+    }
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "rich": true,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "bce"
+    },
+    "epochs": 60,
+    "oof": {
+      "n": 4755,
+      "correct": 4331,
+      "accuracy": 91.08307045215562,
+      "hard_n": 2114,
+      "hard_correct": 1690,
+      "hard_accuracy": 79.94323557237465
+    }
+  },
+  {
+    "config_index": 4,
+    "config": {
+      "rich": true,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "bce"
+    },
+    "epochs": 120,
+    "oof": {
+      "n": 4755,
+      "correct": 4325,
+      "accuracy": 90.95688748685595,
+      "hard_n": 2114,
+      "hard_correct": 1684,
+      "hard_accuracy": 79.65941343424787
+    }
+  },
+  {
+    "config_index": 5,
+    "config": {
+      "rich": true,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "mixed"
+    },
+    "epochs": 10,
+    "oof": {
+      "n": 4755,
+      "correct": 4350,
+      "accuracy": 91.48264984227129,
+      "hard_n": 2114,
+      "hard_correct": 1709,
+      "hard_accuracy": 80.84200567644277
+    }
+  },
+  {
+    "config_index": 5,
+    "config": {
+      "rich": true,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "mixed"
+    },
+    "epochs": 25,
+    "oof": {
+      "n": 4755,
+      "correct": 4340,
+      "accuracy": 91.27234490010515,
+      "hard_n": 2114,
+      "hard_correct": 1699,
+      "hard_accuracy": 80.36896877956481
+    }
+  },
+  {
+    "config_index": 5,
+    "config": {
+      "rich": true,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "mixed"
+    },
+    "epochs": 60,
+    "oof": {
+      "n": 4755,
+      "correct": 4336,
+      "accuracy": 91.1882229232387,
+      "hard_n": 2114,
+      "hard_correct": 1695,
+      "hard_accuracy": 80.17975402081362
+    }
+  },
+  {
+    "config_index": 5,
+    "config": {
+      "rich": true,
+      "width": 64,
+      "drop": 0.4,
+      "loss": "mixed"
+    },
+    "epochs": 120,
+    "oof": {
+      "n": 4755,
+      "correct": 4332,
+      "accuracy": 91.10410094637224,
+      "hard_n": 2114,
+      "hard_correct": 1691,
+      "hard_accuracy": 79.99053926206244
+    }
+  }
+]
